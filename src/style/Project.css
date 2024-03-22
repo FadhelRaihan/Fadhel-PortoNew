@@ -1,0 +1,74 @@
+.Project {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 8px;
+}
+
+.Card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.kartu {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 8px;
+    box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+    width: 20rem;
+}
+
+.bodyKartu {
+    background-color: wheat;
+}
+
+.kartu .bodyKartu .card-title {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .Project {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Project h1 {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .Card {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kartu {
+        width: 16rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .kartu .bodyKartu .card-title {
+        font-size: 20px;
+    }
+
+    .kartu .bodyKartu .card-text {
+        font-size: 15px;
+    }
+
+}

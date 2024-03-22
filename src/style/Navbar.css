@@ -1,0 +1,32 @@
+.Navbar {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #35C2BD;
+    position: fixed;
+    box-shadow: 1px 9px 17px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 1px 9px 17px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 1px 9px 17px 0px rgba(0,0,0,0.38);
+}
+
+.Image {
+    width: 70px;
+}
+
+.NavLink {
+    margin-right: 10px;
+    color: white !important;
+}
+
+.NavLink:hover {
+    color: rgb(206, 206, 206) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .Navbar {
+        font-size: 18px;   
+    }
+
+    .Image {
+        width: 50px;
+    }
+}
