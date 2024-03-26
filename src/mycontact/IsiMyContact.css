@@ -1,0 +1,79 @@
+.IsiMyContact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+
+.imgContact {
+    width: 90px;
+    margin-right: 30PX;
+}
+
+.Contact {
+    display: flex;
+    margin-bottom: -100px;
+}
+
+.Isi {
+    display: flex;
+    background: wheat;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 7px 10px 14px -1px rgba(0,0,0,0.38);
+}
+
+.Isi h3 {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.Contact .buttonContact {
+    background-color: whitesmoke;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .IsiMyContact {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    
+    .imgContact {
+        width: 100px;
+        scale: 70%;
+        margin-right: 0px;
+    }
+    
+    .Contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -50px;
+    }
+    
+    .Isi {
+        display: flex;
+        flex-direction: column;
+        background: wheat;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+    .Isi h3 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    
+    .Contact .buttonContact {
+        background-color: whitesmoke;
+        font-size: 15px;
+        margin-right: 0px;
+    }
+}

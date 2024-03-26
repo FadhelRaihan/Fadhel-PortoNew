@@ -1,0 +1,41 @@
+.IntroMyDesain {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.IntroMyDesain h1 {
+    margin-top: 120px;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.imgMyDesain {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .IntroMyDesain {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgMyDesain {
+        position: absolute;
+        margin-top: 20px;
+        width: 100%;
+        z-index: -1;
+        height: 30%;
+    }
+
+    .IntroMyDesain h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+    }
+}

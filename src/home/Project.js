@@ -2,13 +2,13 @@ import { Card, Button, Container } from "react-bootstrap";
 import Foto from '../asset/IsiCard.jpg'
 import '../style/Project.css'
 
-const Desain = () => {
+const Project = () => {
     return (
         <div className="Project">
-            <h1>DESAIN</h1>
+            <h1>PROJECT</h1>
             <Container className="Card">
                 <Card className="kartu">
-                    <Card.Img variant="top" src={Foto} className="img"/>
+                    <Card.Img variant="top" src={Foto}/>
                     <Card.Body className="bodyKartu"> 
                         <Card.Title>Judul</Card.Title>
                         <Card.Text>
@@ -19,7 +19,7 @@ const Desain = () => {
                     </Card.Body>
                 </Card>
                 <Card className="kartu">
-                    <Card.Img variant="top" src={Foto} className="img"/>
+                    <Card.Img variant="top" src={Foto}/>
                     <Card.Body className="bodyKartu">
                         <Card.Title>Judul</Card.Title>
                         <Card.Text>
@@ -30,7 +30,7 @@ const Desain = () => {
                     </Card.Body>
                 </Card>
                 <Card className="kartu">
-                    <Card.Img variant="top" src={Foto} className="img"/>
+                    <Card.Img variant="top" src={Foto}/>
                     <Card.Body className="bodyKartu">
                         <Card.Title>Judul</Card.Title>
                         <Card.Text>
@@ -45,4 +45,4 @@ const Desain = () => {
     )
 }
 
-export default Desain;
+export default Project;
